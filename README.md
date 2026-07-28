@@ -67,7 +67,8 @@ SELECT SUM(valor_mensal) AS receita_mensal
 FROM contratos
 WHERE status_pagamento IN ('em_dia','atrasado');
 ```
-**Resultado:** _(preencher)_
+**Resultado:** <img width="352" height="183" alt="image" src="https://github.com/user-attachments/assets/d066bf34-e22e-430b-adec-762a8a925aa6" />
+
 
 ### 3. Receita mensal por status de pagamento
 ```sql
@@ -76,7 +77,8 @@ FROM contratos
 WHERE status_pagamento IN ('em_dia','atrasado')
 GROUP BY status_pagamento;
 ```
-**Resultado:** _(preencher)_
+**Resultado:**  <img width="380" height="247" alt="image" src="https://github.com/user-attachments/assets/f425edb3-0d0b-434c-8822-24236810f171" />
+
 
 ### 4. Percentual de inadimplência
 ```sql
@@ -87,7 +89,8 @@ SELECT
 FROM contratos
 WHERE status_pagamento IN ('em_dia','atrasado');
 ```
-**Resultado:** _(preencher)_
+**Resultado:** <img width="572" height="300" alt="image" src="https://github.com/user-attachments/assets/107311a4-3923-4347-9c72-2fa369681705" />
+
 
 ### 5. Ticket médio dos contratos ativos
 ```sql
