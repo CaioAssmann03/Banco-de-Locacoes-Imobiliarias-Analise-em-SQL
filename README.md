@@ -58,7 +58,8 @@ SELECT
     ROUND(SUM(CASE WHEN status = 'alugado' THEN 1 ELSE 0 END) * 100.0 / COUNT(*), 2) AS taxa_ocupacao
 FROM imoveis;
 ```
-**Resultado:** _(preencher)_
+**Resultado:** <img width="492" height="261" alt="image" src="https://github.com/user-attachments/assets/507b850b-1797-4827-a867-432d56713fbf" />
+
 
 ### 2. Receita mensal de aluguéis
 ```sql
